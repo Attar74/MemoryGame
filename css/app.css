@@ -21,6 +21,22 @@ body {
     font-family: 'Coda', cursive;
 }
 
+header p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header p a {
+    color:#02b3e4;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+header p a:hover {
+    color:#02ccba;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -32,7 +48,6 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-
 /*
  * Styles for the deck of cards
  */

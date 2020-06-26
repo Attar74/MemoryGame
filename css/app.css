@@ -27,12 +27,12 @@ header p {
     align-items: center;
     flex-direction: column;
 }
-header p a {
+header p span {
     color:#02b3e4;
     letter-spacing: 3px;
     font-size: 25px;
 }
-header p a:hover {
+header p span:hover {
     color:#02ccba;
     text-decoration: underline;
     cursor: pointer;
